@@ -6,7 +6,7 @@
 
 //Preparation
 CycleGANであるdomainAとあるdomainBでの変換をするとき，<br>
-１．<a href="https://github.com/Daiki-Shiotsuka/FCN_PyTorch"> セグメンテーション用のネットワーク</a>でdomainAの画像でセグメンテーションのネットワークをトレーニングし，<a href="https://github.com/Daiki-Shiotsuka/FCN_PyTorch">そこ</a>のcheckpointsのlatset.pthを<a href="https://github.com/Daiki-Shiotsuka/SemSeg_CycleGAN_PyTorch">本コード</a>のSemSeg_pretrainedのdomainAにいれる．<br>
+１．<a href="https://github.com/Daiki-Shiotsuka/FCN_PyTorch"> セグメンテーション用のネットワーク</a>でdomainAの画像でセグメンテーションのネットワークをトレーニングし，<a href="https://github.com/Daiki-Shiotsuka/FCN_PyTorch">そこ</a>のcheckpointsのlatset.pthを<a href="https://github.com/Daiki-Shiotsuka/SemSeg_CycleGAN_PyTorch">本コード</a>のpretrainedのdomainAにいれる．<br>
 2. domainBについても同様にする．<br>
 3. Train<br>
 4. Test<br>
