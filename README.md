@@ -12,7 +12,7 @@ CycleGANで、あるdomainAとあるdomainBでの変換をするとき，<br>
 4. Test<br>
 
 
-Note
+Note:
 I'm not the author of this paper.  
 If you use this program, please make sure to review the code yourself.
 
